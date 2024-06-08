@@ -13,12 +13,32 @@ html {
 nav {
     box-shadow: 0 1px 3px 1px rgba(0, 0, 0, .2);
 }
+
+.drop-pad li{
+    padding: 1px 10px !important;
+    
+}
+.drop-pad li a{
+    padding: 8px 10px !important;
+    margin: 2px 0px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    transition: .1s !important;
+}
+.drop-pad li a:hover{
+    background-color: #a6c !important;
+    color: white !important;
+    box-shadow: 0 5px 8px 2px rgba(0, 0, 0, .2);
+}
 .violet-mod {
     background-color: #673ab7 !important;
 }
 
 .pink-cer {
     background-color: #ec407a !important;
+}
+.blue-mage {
+    background-color: #6200ea !important;
 }
 
 .nav-link {
@@ -36,13 +56,21 @@ main {
     width: 100%;
     height: 100%;
 }
+
 .background-image {
-   background-image: url(images/background.png);
-    width: 100%;
-    height: 700px;
-    background-position: center;
-    background-size: cover;
+    background-image: url(images/background.png);
+     width: 100%;
+     height: 700px;
+     background-position: center;
+     background-size: cover;
+ }
+
+@media screen and (max-width:780px){
+    .background-image{
+        height: 900px;
+    }
 }
+
 .background-color {
     background-color: rgba(156,39,176,.1);
     width: 100%;
